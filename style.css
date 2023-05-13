@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  margin:0px;
+}
+
+/* Mobile Phone - Portrait */
+@media (orientation: portrait) {
+    img {
+      border: 2px solid gray;
+      width: 100%;
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 50px;
+    }
+}
+
+/* Mobile Phone - Landscape */
+@media (orientation: landscape) {
+    img {
+      border: 1.5px solid gray;
+      Height: 96%;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      display: block;
+    }
+}
