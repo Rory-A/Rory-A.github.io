@@ -26,6 +26,17 @@ body {
 }
 
 @media only screen and (max-width: 1250px) {
+    #contact-underline {
+        margin-left:20px;
+        margin-right:20px;
+        margin-top:20px;
+        border: 1.5px solid gray;
+    }
+    #contact-icon{
+        margin-right: 41px;
+        padding-top: 48px;
+        font-size: 78;
+    }
     #underline {
       border: 2px solid gray;
       width: 100%;
