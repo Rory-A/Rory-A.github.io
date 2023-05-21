@@ -3,26 +3,91 @@ body {
   margin:0px;
 }
 
-/* Mobile Phone - Portrait */
 @media (orientation: portrait) {
     img {
       border: 2px solid gray;
       width: 100%;
-      margin-top: 10px;
+      margin-top: 15px;
       margin-left: 20px;
       margin-right: 20px;
       margin-bottom: 50px;
     }
 }
 
-/* Mobile Phone - Landscape */
 @media (orientation: landscape) {
     img {
       border: 1.5px solid gray;
-      Height: 96%;
+      Height: 93.5%;
       margin: auto;
       margin-top: 10px;
       margin-bottom: 50px;
       display: block;
     }
+}
+
+@media only screen and (max-width: 1250px) {
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 23px 39px;
+      text-decoration: none;
+      font-family: Courier New;
+      font-size: 18px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      border-bottom: solid white 0.5px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1250px) {
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 66px;
+      text-decoration: none;
+      font-family: Courier New;
+      font-size: 18px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      border-bottom: solid white 1px;
+    }
+}
+
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+  border-top: solid white 1px;
+}
+
+p {
+  margin-left: 90px;
+  margin-top: 50px;
+  color: white;
+  font-family: Courier New;
+  font-size: 18px;
 }
