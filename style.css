@@ -93,7 +93,7 @@ body {
     #private-public-heading {
         color: white;
         font-family: Courier New;
-        font-size: 80px;
+        font-size: 84px;
         width: 91%;
         margin: auto;
         margin-bottom: 15px;
@@ -102,10 +102,11 @@ body {
     #private-public-text {
         color: white;
         font-family: Courier New;
-        font-size: 27px;
-        width: 91%;
+        font-size: 27.5px;
+        width: 95%;
         margin: auto;
         margin-bottom: 100px;
+        margin-right: 0px;
     }
 }
 
